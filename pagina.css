@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.header {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 6px #9c9c9c50;
+    margin-bottom: 6px; 
+    width: 100%;
+    margin-left: 0;
+
+}
+
+.logoHeader img {
+    width: 6em;
+    height: 2em;
+} 
+
+.headList li a{
+    padding: .75em 1.15em;
+    text-decoration: none;
+
+}
+
+.headList ul {
+    display: flex;
+    gap: .6rem;
+    list-style-type: none;
+}
+   
+.imagemGov img {
+    margin-top: 1.5em;
+    margin-left: 6em;
+    width: 700px;
+    height: 500px;
+}
+
+.cardLog {
+    display: flex;
+}
+
+.card {
+    width: 380px;
+    height: 750px;
+    background: #ffffff 0 0 no-repeat padding-box;
+    box-shadow: 0 2px 4px #00000033;
+    padding: 20px;
+    margin: 24px auto auto 30px;
+}
+
+.card h3 {
+    padding-bottom: 1.5em;
+}
+
+.card .prgf1 {
+    font-size: 12px;
+}
+
+.card a {
+    text-decoration: none;
+    color: rgb(71, 68, 68);
+}
+
+.card img {
+    padding-right: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    
+}
+
+.inputcpf {
+    width: 92%;
+    height: 35px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding-left: 20px;
+    font-size: 15px;
+    
+}
+
+.inputcpf:focus {
+    border: 1px solid black;
+    background-color: rgba(253, 230, 179, 0.979);
+}
+
+.button {
+    display: flex;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    justify-content: right;
+    margin-right: 1.5em;
+
+}
+
+button {
+    height: 3em;
+    width: 10.5em;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(18, 102, 228);
+    color: white;
+}
+
+
+.listFim li a {
+    text-decoration: none; 
+}
+
+.listFim ul {
+    list-style-type: none;
+    padding:0;
+    padding-bottom: 10px;
+}
+
+.listFim ul .listGreen a {
+    color: green;
+}
+
+.listFim .strongGreen {
+    background-color: green;
+    padding: 4px;
+}
+
+.listFim ul a {
+    color: rgb(71, 68, 68);
+}
+
+.list {
+    padding-bottom: 1em;
+    
+}
+
+.footer {
+    padding-top: 4em;
+    
+}
+
+.footer img {
+    width: 15px;
+    height: 15px;
+    padding-right: 6px;
+}
+
+.footer li {
+    list-style-type: none;
+    padding-bottom: 1.5em;
+}
+
+.footer a {
+    text-decoration: none;
+    color: rgb(59, 59, 226);
+}
+
+.strongGreen {
+    background-color: green;
+    color: white;
+    font-size: 8px;
+    padding: 4px;
+}
